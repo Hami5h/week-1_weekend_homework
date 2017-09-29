@@ -23,3 +23,7 @@ end
 def pets_sold(quantity_sold)
   return quantity_sold[:admin][:pets_sold]
 end
+
+def increase_pets_sold(pet_shop, quantity)
+  pet_shop[:admin][:pets_sold] += quantity
+end
