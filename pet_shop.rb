@@ -60,3 +60,7 @@ end
 def add_pet_to_stock(pet_shop, pet_to_add)
   pet_shop[:pets] << pet_to_add
 end
+
+def customer_pet_count(customer_count)
+customer_count[:pets].count.to_i
+end
